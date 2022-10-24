@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" View Functions that handle all default RESTFul API actions for Place - Amenity """
+"""
+View Functions that handle all default RESTFul API actions for Place - Amenity
+"""
 from models.place import Place
 from models.amenity import Amenity
 from models import storage
@@ -29,7 +31,7 @@ def get_place_amenities(place_id):
 
 
 @app_views.route('/places/<place_id>/amenities/<amenity_id>',
-                         methods=['DELETE'], strict_slashes=False)
+                 methods=['DELETE'], strict_slashes=False)
 def delete_place_amenity(place_id, amenity_id):
     """
     Deletes a Amenity object of a Place
@@ -58,7 +60,7 @@ def delete_place_amenity(place_id, amenity_id):
 
 
 @app_views.route('/places/<place_id>/amenities/<amenity_id>', methods=['POST'],
-                         strict_slashes=False)
+                 strict_slashes=False)
 def post_place_amenity(place_id, amenity_id):
     """
     Link a Amenity object to a Place
