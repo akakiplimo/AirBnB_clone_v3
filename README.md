@@ -1,5 +1,5 @@
-# AirBnB Clone - Web Dynamic
-This is the 4th segment of the AirBnB project at Holberton School by ALX
+# AirBnB Clone - RESTful API
+This is the third segment of the AirBnB project at Holberton School that looks at integrating a REST API to create, retrieve, update & delete a resource(s) from a storage point i.e. database
 
 ## AirBnB Clone - The Console
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
